@@ -1,3 +1,3 @@
 # Andrei Yasyrev personal page.
 
-preparing content...
+Home for my blog.
