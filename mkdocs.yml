@@ -1,0 +1,35 @@
+site_name: Andrei Yasyrev
+site_url: https://yasyrev.github.io
+repo_url: https://github.com/ayasyrev/yasyrev.github.io
+repo_name: ayasyrev
+
+nav:
+  - Home: index.md
+  - 'about.md'
+
+theme:
+  palette: 
+    - scheme: default
+      toggle:
+        icon: material/toggle-switch-off-outline 
+        name: Switch to dark mode
+    - scheme: slate 
+      toggle:
+        icon: material/toggle-switch
+        name: Switch to light mode
+  font:
+      text: Roboto
+  features:
+    - toc.integrate
+  name: material
+  shortcuts:
+      help: 191    # ?
+      next: 78     # n
+      previous: 80 # p
+      search: 83   # s readthedocs
+
+markdown_extensions:
+    - toc:
+        permalink: "#"
+plugins:
+- search
